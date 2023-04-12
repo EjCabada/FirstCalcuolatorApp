@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(79, 193, 255);
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+    height: fit-content;
+    margin: auto;
+    margin-top: 1em;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: fit-content;
+    padding: 1em 3em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    background-color: rgb(93, 108, 120);
+    background: linear-gradient(180deg, #758191 0%, #525f6f 100%);
+    padding: 0;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 2em;
+    border-radius: 25px;
+    height: fit-content;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 10px 0px 0px rgba(0,0,0,0.75);
+}
+#inputDisplay {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    color:black;
+}
+
+.inputBoxes{
+    height: 1.5em;
+    width: 100%;
+    color: black;
+    text-align: right;
+}
+
+
+#inputButtonsArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    min-height: 14em;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    justify-self: center;
+}
+
+.inputButtons {
+    color:black;
+    background-color: white;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    margin:.5em 0;
+    text-align: center;
+    place-self: center center;
+    line-height: 3em;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+#zero{
+    grid-column: 1 / 3; 
+    width: 8em;
+    border-radius: 35px;
+}
+
+.functionButtons {
+    background-color: rgb(203, 203, 203);
+}
+
+.inputButtons:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.inputButtons:active {
+    background-color: rgb(53, 63, 71);
+    color:white;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.75);
+}
+.operators {
+    background-color: rgb(37, 91, 129);
+    color: white;
+}
+
+.operators:hover {
+    background-color: rgb(16, 39, 56);
+}
+
+.operators:active {
+    background-color: white;
+    color: black;
+}
+
+#firstInput {
+    color: gray;
+    font-size: .7em;
+}
+#lastInput {
+    color: gray;
+    font-size: .7em;
+}
+#currentInput {
+    font-size: 1.3em;
+    font-weight: 700;
+}
